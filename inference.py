@@ -28,4 +28,4 @@ def stylize(input_path, ckpt_path, output_path):
     save_image(y, output_path)
 
 # usage:
-# stylize("film.jpg", "checkpoints/G_F2M_50.pt", "film_monet.jpg")
+stylize("000014.jpeg", "checkpoints/G_F2M_1.pt", "film_monet.jpg")
